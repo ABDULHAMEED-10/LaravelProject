@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .bg-img{
+  background-color: rgb(177, 178, 180);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  }
+
+  .bg-img:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+  }
+  
+  .main {
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-side {
+    /* background-image: url("./Images/loginSide.png"); */
+    background-color: skyblue;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .login-side-text {
+    /* background-image: url("./Images/white.png"); */
+    /* background-color: wheat; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .inp {
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+  }
+  
+  .btn1 {
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    font-weight: 650;
+    background: greenyellow;
+    color: black;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .btn1:hover {
+    background-color: yellow;
+  }
+  
+  .btn1-2 {
+    width: 80%;
+  }
+  
+  .btn2 {
+    width: 45%;
+  }
+  
+  form {
+    margin-top: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    width: 100%;
+  }
+  
+  .img-upload {
+    cursor: pointer;
+  }
+  .img-upload:hover {
+    color: black;
+    text-decoration: underline;
+  }/*# sourceMappingURL=signup.css.map */
